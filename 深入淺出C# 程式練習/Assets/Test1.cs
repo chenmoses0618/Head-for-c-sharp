@@ -8,13 +8,21 @@ using UnityEngine;
 namespace Save_the_Humans
 {
     public sealed partial class MainPage : Page
-    { }
+    {
+        void startButton_Click(object sender, object e)
+        {
+            StartGame();
+        }
+        private void StartGame()
+        {
+
+        }
+    }
 }
 
 public class NewBehaviourScript
     //: MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         
